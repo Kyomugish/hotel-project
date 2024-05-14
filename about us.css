@@ -1,0 +1,25 @@
+body{
+    background-image: url(3-ATHENA-BEACH-HOTEL-POOL-AND-SEA-VIEW-1920x785.jpg);
+    text-align: center;
+}
+.field{
+
+    border:2px solid black;
+  padding: 20px;
+  margin: 10px;
+  background:linear-gradient(blue,green,black,purple,orange);
+  color: aliceblue;
+  width: 900px;
+  height: 15%;
+  border-radius: 10%;
+  margin-top: 90px;
+  margin-left: 200px;
+
+}
+footer{
+color:blue;
+}
+a{
+  color: yellow;
+  font-size: x-large;
+}

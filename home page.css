@@ -1,0 +1,91 @@
+body{    
+background-image: url(luxury-resort.jpg);
+  color:white;                                                                                                                                                                                                                                                                                                                                                               nd-image: url(2bc16849-7ca6-4bda-b327-c149bcb8e3d4-TheStRegisPuntaMitaResort-DeluxeSuite-CreditStarwoodHotelsResortWorldwideInc.jpg);
+}
+.container{
+animation: reveal 30s ;
+border-radius: 50px;
+background-color: brown;
+margin-top:50px;
+
+}
+.hero{
+text-align: center;
+
+}
+h1{
+  animation: rotate 14s linear infinite ;
+}
+.booking-form {
+  position: relative;
+width: 750px;
+height: 450px;
+
+overflow: hidden;
+margin-top: 200px;
+text-align: center;
+margin-left: 300px;
+margin-top:100px;
+
+}
+.booking-form.label{
+  width: 300px;
+  
+}
+input{
+width: 300px;
+height: 30px;
+padding:10px;
+outline: none;
+background:transparent;
+
+
+}
+.form-group{
+margin-top: 30px;
+  
+
+
+}
+button{
+margin-top: 30px;
+color:white;
+background:linear-gradient(black,green,blue,purple);
+border-radius: 5px;
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform:rotateY(360deg);
+  }
+}
+
+@keyframes reveal{
+  
+from{
+  
+width:0;
+}
+to{
+  
+width:100%;
+}
+}
+
+
+
+  header{
+    text-align:center;
+margin-right: 10px;
+background-color: black;
+color: white;
+  }
+
+  nav a{
+    color: linen;
+    font-size: x-large;
+
+  }

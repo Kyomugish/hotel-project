@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(black,blue,green,black,rgb(175, 5, 133),blue);
+
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    
+  }
+  
+  
+ 
+  nav{
+    color: #fff;
+    text-decoration: none;
+  text-align:center;
+  justify-content:center;
+  background-color: chartreuse;
+  font-size: larger;
+    }
+  form{
+    background:transparent;
+    color: linen;
+    width: 400px;
+    height: 50vh;
+    word-spacing: 9cm;
+
+  }
+  h2{
+    color: honeydew;
+    justify-content: flex-start;
+  }
+  
+ 
+  
+  .color-background{
+    background-color: black;
+  }
+  label{
+    color:white;
+    font-size: medium;   }
+  input{
+    background-color: lightgreen;
+    font-size: large;
+  }
+  button{
+    background:linear-gradient(yellow,blue,green,red,black,brown);
+    font-size: medium;
+    color: blanchedalmond;
+  }
+  img{
+    margin-left: 20px;
+    height: 50%;
+    width: 600px;
+  }
+p{
+  color:white;
+}
+h3{
+  color: antiquewhite;
+}
+form{
+  margin-left: 400px;
+  margin-top:20px;
+}
+input{
+  width: 400px;
+  height: 50px;
+}
+.room-types{
+  background: black;
+  width: 900px;
+  border-radius: 40px;
+}

@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(blue,purple);
+    color: honeydew;
+  } 
+  
+  /* Header Styles */
+  header {
+  
+    padding: 20px;
+  }
+  
+  nav {
+    
+    justify-content:center;
+    align-items:center;
+    background-color: thistle;
+    right: 25px;
+  
+    
+  }
+  
+  .logo a {
+    color:white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  
+  nav ul li a {
+    color:#080808;
+    text-decoration: none;
+  }
+  
+
+  
+  /* Contact Section Styles */
+  .contact-section {
+    padding: 50px;
+  }
+  
+  .contact-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-info {
+    flex-basis: 30%;
+  }
+  
+  .contact-form {
+    flex-basis: 60%;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+margin-top: 20px;
+width: 400px;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  
+  .contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  button{
+    color:yellowgreen;
+    margin-top: 20px;
+  }
